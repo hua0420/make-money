@@ -1,0 +1,312 @@
+.hang{
+    height: 1em;
+    background: #f1f1f1;
+}
+// 轮播图
+.banner{
+    .container-fluid{
+        .box{
+            padding: 1em 0;
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+// 活期推荐
+.current{
+    .container-fluid{
+        .box{
+            .theme{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 1em 0;
+                border-bottom: 1px solid #e7e5e5;
+                .title{
+                    font-size: 1.5em;
+                    font-weight: bold;
+                }
+                .info{
+                    font-size: 1.5em;
+                    color: #46a1fc;
+                    span{
+                        margin-left: .5em;
+                    }
+                }
+            }
+            .content{
+                .listbox{
+                    .list{
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 1.5em 0;
+                        border-bottom: 1px solid #e7e5e5;
+                        &:last-child{
+                            border: 0;
+                        }
+                        .left{
+                            width: 45%;
+                            border-right: 1px solid #e7e5e5;
+                            p{
+                                font-size: 2em;
+                                color: #f74644;
+                            }
+                            span{
+                                color: #999999;
+                            }
+                        }
+                        .right{
+                            width: 50%;
+                            p{
+                                padding: .5em 0;
+                                font-size: 1em;
+                                color: #070404;
+                                sup{
+                                    margin-left: .5em;
+                                    background: #fb7672;
+                                    font-size: 1.2em;
+                                    padding: 0 .3em;
+                                    color: white;
+                                    border-bottom-right-radius: 15px;
+                                    border-top-right-radius: 15px;
+                                    border-top-left-radius: 15px;
+                                }
+                            }
+                            span{
+                                color: #999999;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:1025px) and (min-height:1366px) {
+        &{
+            .container-fluid{
+                .box{
+                    .theme{
+                        .title{
+                            font-size: 4.5em;
+                        }
+                        .info{
+                            font-size: 3.5em;
+                        }
+                    }
+                    .content{
+                        .listbox{
+                            .list{
+                                .left{
+                                    p{
+                                        font-size: 6em;
+                                    }
+                                    span{
+                                        font-size: 2.5em;
+                                    }
+                                }
+                                .right{
+                                    width: 50%;
+                                    p{
+                                        font-size: 2.5em;
+                                    }
+                                    span{
+                                        font-size: 2.5em;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:768px) and (min-height:1024px) {
+        &{
+            .container-fluid{
+                .box{
+                    .theme{
+                        .title{
+                            font-size: 3.5em;
+                        }
+                        .info{
+                            font-size: 2.5em;
+                        }
+                    }
+                    .content{
+                        .listbox{
+                            .list{
+                                .left{
+                                    p{
+                                        font-size: 5em;
+                                    }
+                                    span{
+                                        font-size: 2em;
+                                    }
+                                }
+                                .right{
+                                    width: 50%;
+                                    p{
+                                        font-size: 2em;
+                                    }
+                                    span{
+                                        font-size: 2em;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// 短期推荐
+.short-term{
+    .container-fluid{
+        .box{
+            .theme{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 1em 0;
+                border-bottom: 1px solid #e7e5e5;
+                .title{
+                    font-size: 1.5em;
+                    font-weight: bold;
+                }
+                .info{
+                    font-size: 1.5em;
+                    color: #46a1fc;
+                    span{
+                        margin-left: .5em;
+                    }
+                }
+            }
+            .content{
+                .listbox{
+                    .list{
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 1.5em 0;
+                        border-bottom: 1px solid #e7e5e5;
+                        &:last-child{
+                            border: 0;
+                        }
+                        .left{
+                            width: 45%;
+                            border-right: 1px solid #e7e5e5;
+                            p{
+                                font-size: 2em;
+                                color: #f74644;
+                            }
+                            span{
+                                color: #999999;
+                            }
+                        }
+                        .right{
+                            width: 50%;
+                            p{
+                                padding: .5em 0;
+                                font-size: 1em;
+                                color: #070404;
+                                sup{
+                                    margin-left: .5em;
+                                    background: #47a2fd;
+                                    font-size: 1.2em;
+                                    padding: 0 .3em;
+                                    color: white;
+                                    border-bottom-right-radius: 15px;
+                                    border-top-right-radius: 15px;
+                                    border-top-left-radius: 15px;
+                                }
+                            }
+                            span{
+                                color: #999999;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:1025px) and (min-height:1366px) {
+        &{
+            .container-fluid{
+                .box{
+                    .theme{
+                        .title{
+                            font-size: 4.5em;
+                        }
+                        .info{
+                            font-size: 3.5em;
+                        }
+                    }
+                    .content{
+                        .listbox{
+                            .list{
+                                .left{
+                                    p{
+                                        font-size: 6em;
+                                    }
+                                    span{
+                                        font-size: 2.5em;
+                                    }
+                                }
+                                .right{
+                                    width: 50%;
+                                    p{
+                                        font-size: 2.5em;
+                                    }
+                                    span{
+                                        font-size: 2.5em;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:768px) and (min-height:1024px) {
+        &{
+            .container-fluid{
+                .box{
+                    .theme{
+                        .title{
+                            font-size: 3.5em;
+                        }
+                        .info{
+                            font-size: 2.5em;
+                        }
+                    }
+                    .content{
+                        .listbox{
+                            .list{
+                                .left{
+                                    p{
+                                        font-size: 5em;
+                                    }
+                                    span{
+                                        font-size: 2em;
+                                    }
+                                }
+                                .right{
+                                    width: 50%;
+                                    p{
+                                        font-size: 2em;
+                                    }
+                                    span{
+                                        font-size: 2em;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

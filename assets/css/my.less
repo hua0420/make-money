@@ -1,0 +1,290 @@
+// 头像
+.back{
+    .container-fluid{
+        .box{
+            .theme{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 1em;
+                margin-bottom: 2em;
+                .img{
+                    img{
+                        width: 80%;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:1025px) and (min-height:1366px) {
+        &{
+            .container-fluid{
+                .box{
+                    .theme{
+                        .img{
+                            img{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:768px) and (min-height:1024px) {
+        &{
+            .container-fluid{
+                .box{
+                    .theme{
+                        .img{
+                            img{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// 总资产
+.assets{
+    margin-bottom: 1.5em;
+    .container-fluid{
+        .box{
+            background: url(../images/my-back.png) no-repeat left top;
+            background-size: cover;
+            border-radius: 10px;
+            .theme{
+                width: 90%;
+                margin: 0 auto;
+                .title{
+                    font-size: 1.5em;
+                    color: white;
+                    text-align: center;
+                }
+                .info{
+                    font-size: 3em;
+                    color: white;
+                    text-align: center;
+                }
+            }
+            .content{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 90%;
+                margin: 0 auto;
+                padding-bottom: 1em;
+                .left{
+                    margin-bottom: 1em;
+                    .title{
+                        font-size: 1.2em;
+                        color: white;
+                    }
+                    .info{
+                        font-size: 1.2em;
+                        color: white;
+                    }
+                }
+                .right{
+                    button{
+                        border: 0;
+                        border-radius: 20px;
+                        background: rgba(rgb(219, 214, 214),.5);
+                        color: white;
+                        padding: .3em .5em;
+                        font-size: 1.2em;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:1025px) and (min-height:1366px) {
+        &{
+            .container-fluid{
+                .box{
+                    .theme{
+                        .title{
+                            font-size: 3.5em;
+                        }
+                        .info{
+                            font-size: 5em;
+                        }
+                    }
+                    .content{
+                        .left{
+                            .title{
+                                font-size: 3.2em;
+                            }
+                            .info{
+                                font-size: 3.2em;
+                            }
+                        }
+                        .right{
+                            button{
+                                font-size: 2.7em;
+                                border-radius: 50px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:768px) and (min-height:1024px) {
+        &{
+            .container-fluid{
+                .box{
+                    .theme{
+                        .title{
+                            font-size: 2.5em;
+                        }
+                        .info{
+                            font-size: 4em;
+                        }
+                    }
+                    .content{
+                        .left{
+                            .title{
+                                font-size: 2.2em;
+                            }
+                            .info{
+                                font-size: 2.2em;
+                            }
+                        }
+                        .right{
+                            button{
+                                font-size: 1.7em;
+                                border-radius: 40px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// 图标按钮
+.icon-button{
+    .container-fluid{
+        .box{
+            display: flex;
+            justify-content: space-between;
+            .list{
+                text-align: center;
+                margin-bottom: 1.5em;
+                width: 25%;
+                .img{
+                    width: 100%;
+                    margin: 0 auto;
+                    img{
+                        width: 80%;
+                        margin-bottom: .5em;
+                    }
+                }
+                .title{
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+    @media screen and (max-width:1025px) and (min-height:1366px) {
+        &{
+            .container-fluid{
+                .box{
+                    .list{
+                        .title{
+                            font-size: 2.5em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:768px) and (min-height:1024px) {
+        &{
+            .container-fluid{
+                .box{
+                    .list{
+                        .title{
+                            font-size: 2em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// 客官提醒
+.patron{
+    .container-fluid{
+        .box{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border: 1px solid #ffeac0;
+            border-radius: 5px;
+            background: #fffce2;
+            padding: 1.5em 1em;
+            margin-bottom: 1em;
+            .img{
+                width: 10%;
+                img{
+                    width: 60%;
+                }
+            }
+            p{
+                width: 70%;
+                font-size: 1em;
+                color: #999999;
+            }
+        }
+    }
+    @media screen and (max-width:1025px) and (min-height:1366px) {
+        &{
+            .container-fluid{
+                .box{
+                    .img{
+                        width: 10%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    p{
+                        font-size: 3em;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:768px) and (min-height:1024px) {
+        &{
+            .container-fluid{
+                .box{
+                    .img{
+                        width: 10%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    p{
+                        font-size: 2em;
+                    }
+                }
+            }
+        }
+    }
+}
+// 轮播图
+.banner{
+    .container-fluid{
+        .img{
+            width: 100%;
+            margin-bottom: 1em;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

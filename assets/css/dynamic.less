@@ -1,0 +1,269 @@
+.hang{
+    height: 1em;
+    background: #f1f1f1;
+}
+// 头部
+.back{
+    background: url(../images/dynamic-back.png) no-repeat left top;
+    background-size: cover;
+    .container-fluid{
+        .box{
+            .theme{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 1em;
+                .img{
+                    img{
+                        width: 80%;
+                    }
+                }
+                .info{
+                    font-size: 1.5em;
+                    color: #fff;
+                }
+            }
+            .list{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 5em;
+                margin-bottom: 1em;
+                li{
+                    font-size: 1.1em;
+                    color: #fff;
+                    
+                }
+            }
+        }
+    }
+    @media screen and (max-width:1025px) and (min-height:1366px) {
+        &{
+            .container-fluid{
+                .box{
+                    .theme{
+                        .img{
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        .info{
+                            font-size: 3.5em;
+                        }
+                    }
+                    .list{
+                        li{
+                            font-size: 3.1em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:768px) and (min-height:1024px) {
+        &{
+            .container-fluid{
+                .box{
+                    .theme{
+                        .img{
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        .info{
+                            font-size: 2.5em;
+                        }
+                    }
+                    .list{
+                        li{
+                            font-size: 2.1em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// 小包说
+.bag{
+    .container-fluid{
+        .box{
+            .theme{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 1em;
+                .title{
+                    font-size: 2em;
+                    font-weight: bold;
+                }
+                .info{
+                    font-size: 1.2em;
+                    color: #999999;
+                }
+            }
+            .img{
+                width: 100%;
+                margin-bottom: 1em;
+                img{
+                    width: 100%;
+                }
+            }
+            .more{
+                margin-bottom: 1em;
+                p{
+                    text-align: center;
+                    font-size: 1em;
+                    color: #999999;
+                }
+            }
+        }
+    }
+    @media screen and (max-width:1025px) and (min-height:1366px) {
+        &{
+            .container-fluid{
+                .box{
+                    .theme{
+                        .title{
+                            font-size: 5em;
+                        }
+                        .info{
+                            font-size: 3.2em;
+                            color: #999999;
+                        }
+                    }
+                    .more{
+                        p{
+                            font-size: 3em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:768px) and (min-height:1024px) {
+        &{
+            .container-fluid{
+                .box{
+                    .theme{
+                        .title{
+                            font-size: 4em;
+                        }
+                        .info{
+                            font-size: 2.2em;
+                            color: #999999;
+                        }
+                    }
+                    .more{
+                        p{
+                            font-size: 2em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// 行业快讯
+.industry{
+    .container-fluid{
+        .box{
+            .theme{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 1em;
+                border-bottom: 1px solid #eaeaea;
+                .title{
+                    font-size: 2em;
+                    font-weight: bold;
+                }
+                .info{
+                    font-size: 1.2em;
+                    color: #999999;
+                }
+            }
+            .content{
+                .list{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-bottom: 1px solid #eaeaea;
+                    padding-bottom: 1em;
+                    margin-bottom: 1em;
+                    .left{
+                        width: 28%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .right{
+                        width: 68%;
+                        .title{
+                            font-size: 1.2em;
+                            font-weight: bold;
+                        }
+                        .info{
+                            color: #999999;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:1025px) and (min-height:1366px) {
+        &{
+            .container-fluid{
+                .box{
+                    .theme{
+                        .title{
+                            font-size: 5em;
+                        }
+                        .info{
+                            font-size: 3.2em;
+                        }
+                    }
+                    .content{
+                        .list{
+                            .right{
+                                .title{
+                                    font-size: 3.2em;
+                                }
+                                .info{
+                                    font-size: 2.7em;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:768px) and (min-height:1024px) {
+        &{
+            .container-fluid{
+                .box{
+                    .theme{
+                        .title{
+                            font-size: 4em;
+                        }
+                        .info{
+                            font-size: 2.2em;
+                        }
+                    }
+                    .content{
+                        .list{
+                            .right{
+                                .title{
+                                    font-size: 2.2em;
+                                }
+                                .info{
+                                    font-size: 1.7em;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
